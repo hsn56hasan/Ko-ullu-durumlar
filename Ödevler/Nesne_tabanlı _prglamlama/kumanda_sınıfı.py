@@ -65,9 +65,9 @@ class Kumanda():
 
         return len(self.kanal_listesi)
     
-    def __str__(self):
+    def __str__(self): 
 
-        return "TV durumu: {}\nTv Ses: {}\nKanal Listesi: {}\nŞu anki kanal: {}\n".format(self.tv_durum,self.tv_ses,self.kanal_listesi,self.kanal)
+        return "TV durumu: {}\nTv Ses: {}\nKanal Listesi: {}\nŞu ank kanal: {}\n".format(self.tv_durum,self.tv_ses,self.kanal_listesi,self.kanal)
     
 
 kumanda = Kumanda()
